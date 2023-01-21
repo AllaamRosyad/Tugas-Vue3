@@ -27,7 +27,7 @@ export default{
 <template>
   <!--tempat ngoding html-->
   <div>Hello {{ datasensor }}
-  <button @click="getData">Ambil Data</button>
+  <button @click="getData" class="bg-orange-500">Ambil Data</button>
   </div>
 </template>
 
